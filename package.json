@@ -1,0 +1,27 @@
+{
+  "type": "module",
+  "name": "hng12_1",
+  "version": "1.0.0",
+  "description": "HNG Stage 1 task",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:dev": "node --watch index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PreciousIfeaka/hng12_1.git"
+  },
+  "author": "PreciousIfeaka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PreciousIfeaka/hng12_1/issues"
+  },
+  "homepage": "https://github.com/PreciousIfeaka/hng12_1#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "node-cron": "^3.0.3"
+  }
+}
