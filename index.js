@@ -6,7 +6,7 @@ import { getNumberDetails } from "./utils.js";
 dotenv.config();
 ;
 function keepAlive(url) {
-  http
+  https
     .get(url, (res) => {
       console.log(`Status: ${res.statusCode}`);
     })
